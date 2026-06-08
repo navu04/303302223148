@@ -270,3 +270,38 @@ Where:
 K = 10
 
 This approach is significantly faster than sorting all notifications using O(N log N).
+
+# Stage 7
+
+## Frontend Implementation
+
+Technology:
+- React
+- Material UI
+- Axios
+- React Router
+
+Pages:
+1. All Notifications
+2. Priority Inbox
+
+Features:
+- Pagination
+- Notification Type Filter
+- Read/Unread Differentiation
+- Responsive Design
+- Priority Sorting
+
+Priority Order:
+Placement > Result > Event
+
+For notifications of the same type,
+newer notifications are shown first.
+
+Read notifications are tracked using
+localStorage and displayed differently
+from unread notifications.
+
+The application runs on:
+
+http://localhost:3000
