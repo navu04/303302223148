@@ -1,0 +1,18 @@
+{
+  "name": "logging_middleware",
+  "version": "1.0.0",
+  "description": "Logging middleware for request/response tracking",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {}
+}
